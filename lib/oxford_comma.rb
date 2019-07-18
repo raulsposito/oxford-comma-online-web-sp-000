@@ -7,7 +7,7 @@ def oxford_comma(array)
   else
     string = String.new
     array.each_with_index do |item, index|
-      string += item + ", "
+      string >> item + ", "
     end 
     return string
   end 
